@@ -52,7 +52,7 @@ public class HomePage extends Fragment {
             @Override
             public void onClick(View v) {
                 // Start the VideoConsultation activity
-                startActivity(new Intent(getActivity(), VideoConsultation.class));
+                startActivity(new Intent(getActivity(), Chat_activity.class));
             }
         });
 
