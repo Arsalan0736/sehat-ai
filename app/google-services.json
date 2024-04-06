@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405934161638",
+    "project_id": "remote-patient-examinati-d354a",
+    "storage_bucket": "remote-patient-examinati-d354a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405934161638:android:bee9728b3e822af67c8527",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBukvRpkoLpFwJlnPH7ZN3rXXaW7hLb_9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405934161638:android:5cd216db19abc8687c8527",
+        "android_client_info": {
+          "package_name": "com.example.onvi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBukvRpkoLpFwJlnPH7ZN3rXXaW7hLb_9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

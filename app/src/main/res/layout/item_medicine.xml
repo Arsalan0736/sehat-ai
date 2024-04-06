@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Medicine Name -->
+    <TextView
+        android:id="@+id/textMedicineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Medicine Description -->
+    <TextView
+        android:id="@+id/textMedicineDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Description"
+        android:textSize="16sp" />
+
+    <!-- Medicine Price -->
+    <TextView
+        android:id="@+id/textMedicinePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price: $0.00"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_green_dark" />
+</LinearLayout>

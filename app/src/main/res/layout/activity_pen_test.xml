@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_below="@id/title_text_view"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/address_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:layout_below="@id/name_edit_text"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/contact_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact Number"
+        android:inputType="phone"
+        android:layout_below="@id/address_edit_text"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/test_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_edit_text"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/request_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Test"
+        android:layout_below="@id/test_spinner"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>
