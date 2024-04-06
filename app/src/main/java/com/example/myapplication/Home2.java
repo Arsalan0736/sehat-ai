@@ -26,9 +26,6 @@ public class Home2 extends AppCompatActivity {
         setContentView(R.layout.activity_home2);
 
         bottomNavigationView = findViewById(R.id.bottom_nav_bar);
-        FragmentTransaction Transaction = getSupportFragmentManager().beginTransaction();
-        Transaction.replace(R.id.Home, new HomePage());
-
         bottomNavigationView.setOnNavigationItemSelectedListener(menuItem -> {
             Fragment fragment = null;
 
@@ -39,12 +36,19 @@ public class Home2 extends AppCompatActivity {
             } else {
                 fragment = new Bot();
             }
-            FragmentTransaction fragmentTransaction = getSupportFragmentManager()
-                    .beginTransaction()
-                    .replace(R.id.Home, fragment);
-            fragmentTransaction.commit();
+
+            // Replace the fragment
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.Home2, fragment)
+                    .commit();
 
             return true;
         });
+
+        // Set the initial fragment
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.Home2, new HomePage())
+                .commit();
     }
+
 }

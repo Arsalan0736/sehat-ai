@@ -2,16 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Home"
+    android:id="@+id/Home2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    tools:context=".Home2">
+    tools:context=".Home2"
+    android:background="#8fbc94">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_alignParentBottom="true"
         android:id="@+id/bottom_nav_bar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:menu="@menu/bottom_nav_menu"
+        android:background="#8fbc94"/>
 </RelativeLayout>
