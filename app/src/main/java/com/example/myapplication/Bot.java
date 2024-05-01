@@ -116,7 +116,7 @@ public class Bot extends Fragment {
 
         GenerativeModel gm = new GenerativeModel(
                 "gemini-1.0-pro",
-                "AIzaSyCW3-YNJfwTJBR-hAMuGB5Y08RbR1sSL1Q",
+                "GEMINI_API_KEY",
                 generationConfig
         );
 
